@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad's Web Development Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+    <link href="index_design.css" rel="stylesheet">
+</head>
+<body>
+   <!--Navigation bar with links--> 
+    <nav class="navbar navbar-expand-lg " >
+        <a class="navbar-brand" href="#">Vlad Steere</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto" >
+            <a class="nav-item nav-link active" target="_blank" href="index.html">About </a>
+            <a class="nav-item nav-link active" target="_blank" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link active" target="_blank" href="contact.html">Contact</a>
+            </div>
+        </div>
+      </nav>
+      <!--Body and container with image and text-->
+    <div class="container">
+        <div class="card">
+            <div class="card body">
+
+       
+      <!--Row 1 for title-->  
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>About Me</h1>
+
+            </div>
+        </div>
+        <!--row 2 with picture and some text split 3/9-->
+        <div class="row">
+            <div class="col-lg-3">
+                <!--image source https://www.pexels.com/photo/blue-sedan-712618/-->
+              <img class="img img-thumbnail" class="img-fluid" src="classic-car.jpg" alt="classic car">
+              <!--I need this image to stretch across all 12 when below 640-->
+            </div>
+            <div class="col-lg-9">
+                <p>I am a finance professional with six years of experience working for large 
+                    government organizations including Broward County, Florida, City of Rowlett, Texas, 
+                    and City of Grand Prairie, Texas. In addition to my extensive finance and budget skills 
+                    I also have experience implementing ERP software solutions including Oracle PeopleSoft Finance 
+                    and Planning and Budgeting Cloud Solution (PBCS). I was the subject matter expert and
+                    designed both user forms and workflows as part of the PBCS implementation. During my 
+                    tenure with the City of Rowlett I was the project manager and functional lead for the 
+                    citywide implementaiton of the Priority Based Budgeting solution. I have extensive 
+                    experience with the full software development lifecycle and both waterfall and agile
+                    software implementations
+
+                </p>
+            </div>
+          </div>
+          <br>
+          <br>
+          <!--row 3 with some additional text on my current endeavors-->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>During the summer of 2020 I enrolled in Southern Methodist University's web development
+                    boot camp and am currently learning to design, develop, and deploy websites using the
+                    Javascript MERN stack. Other items included in the boot camp include Search Engine Optimization,
+                    and various technologies to complement HTML and Javscript website development.
+                </p>
+            </div>
+        </div>
+            
+       
+
+        
+            </div>
+        </div>
+    </div>
+<!--sticky footer with absolute positioning. This is not currently functioning as designed for smaller screens-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-muted" >Copyright 2020; Website designed using Bootstrap. Images 
+                courtesy of pexels.com
+            </span>    
+        </div>
+    </footer>
+    
+</body>
+</html>
