@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="index_design.css" rel="stylesheet">
-    <title>Contact Information</title>
+    <title>Contact Me</title>
 </head>
 
 <body>
@@ -14,12 +15,8 @@
     <!--Navigation bar with links-->
     <nav class="navbar navbar-expand-lg">
         <h1>Vlad Steere</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
+        
+            <div class="d-flex ml-auto">
                 <a class="nav-item nav-link active" target="_blank" href="index.html">About </a>
                 <a class="nav-item nav-link active" target="_blank" href="portfolio.html">Portfolio</a>
                 <a class="nav-item nav-link active" target="_blank" href="contact.html">Contact</a>
@@ -31,48 +28,50 @@
         <div class="card">
             <div class="card body">
 
-                <!--first row-->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2>Contact Me</h2>
-                    </div>
-                </div>
+            
+                
 
-                <!--second row with the bootstrap form-->
+                <!--first row with the bootstrap form-->
                 <form>
-                    <div class="form-group">
-                      <label for="nameInput">Name</label>
-                      <input type="text" class="form-control" id="nameInput"  placeholder="Add Name Here">
+
+                    <div class="form-row">
+                        <div class="col-lg-12">
+                            <h2>Contact Me</h2>
+                        </div>
                     </div>
                     <div class="form-group">
-                      <label for="emailInput">Email</label>
-                      <input type="email" class="form-control" id="emailInput" placeholder="name@email.com">
+                        <label for="nameInput">Name</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Add Name Here">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Email</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@email.com">
                     </div>
 
-                         <div class="form-group">
-                      <label for="messageText">Message</label>
-                      <textarea class="form-control" id="messageText" rows="6" placeholder="Enter your Message Here"></textarea>
+                    <div class="form-group">
+                        <label for="messageText">Message</label>
+                        <textarea class="form-control" id="messageText" rows="6"
+                            placeholder="Enter your Message Here"></textarea>
                     </div>
-                  </form>
-                <div class="row">
-                    <div class="col-lg-3">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+                
 
             </div>
 
         </div>
 
     </div>
-<!--footer-->
-<footer class="footer mt-auto py-3" id="footer1"> 
-    <div class="container">
-        <span class="text-muted" >Copyright 2020
-        </span>    
-    </div>
+    <!--footer-->
+    <footer class="footer mt-auto py-3" id="footer1">
+        <div class="container">
+            <span class="text">Copyright 2020
+            </span>
+        </div>
 
-</footer>
+    </footer>
 
 </body>
 
