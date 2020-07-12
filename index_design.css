@@ -1,10 +1,21 @@
 body {
     background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
 }
 
+a {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    
+}
 
 .container {
     margin-top: 10px;
+    flex: 1 0 auto;
 }
 nav {
     background-color: blue;
@@ -48,8 +59,8 @@ footer {
 }
 
 #footer1 {
-    bottom: 0;
-    position: absolute;
+   flex-shrink: 0; 
+   
    
     
 }
