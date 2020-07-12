@@ -25,8 +25,20 @@ footer {
     background-color: darkslateblue;
     line-height: 80px;
     text-align: center;
+    
 }
 
+#footer1 {
+    position: absolute;
+   
+    
+}
+
+@media only screen and (max-width: 640px) {
+    #footer2 {
+        display: none;
+            }
+}
 
     
 
