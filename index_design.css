@@ -7,6 +7,16 @@ nav {
 
 }
 
+form {
+    padding: 15px;
+}
+
+button {
+    
+}
+
+/* Footer code idea from CSS Tricks */
+
 .page-footer {
     min-width: 100%;
     margin-bottom: -80px
