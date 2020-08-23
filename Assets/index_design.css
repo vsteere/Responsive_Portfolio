@@ -12,6 +12,12 @@ body {
     font-weight: lighter;
 }
 
+.bodyLink2 {
+    color: black;
+    font-size: 17px;
+    font-weight: heavy;
+}
+
 a {
     font-size: 18px;
     font-weight: bolder;
